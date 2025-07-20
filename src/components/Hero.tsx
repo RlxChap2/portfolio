@@ -84,7 +84,7 @@ export const Hero: React.FC<HeroProps> = ({ theme }) => {
                             />
 
                             <img
-                                src="/profile.png"
+                                src="/portfolio/profile.png"
                                 alt="Mohammed Mahmoud"
                                 className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full object-cover shadow-2xl border-4 border-white theme-security:border-slate-700 hover:scale-105 transition-transform duration-500"
                             />
