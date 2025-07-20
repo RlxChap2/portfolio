@@ -158,7 +158,7 @@ export const certificates: Certificate[] = [
         credentialId: '3b87e1c97a60',
         verificationUrl: 'https://www.hackerrank.com/certificates/3b87e1c97a60',
         category: 'development',
-        imageUrl: 'https://i.ibb.co/kgTqF8fB/image.png',
+        imageUrl: 'https://i.ibb.co/7xqS1Z8m/nodejs.png',
     },
     {
         id: 'cert12',
