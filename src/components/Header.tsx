@@ -6,7 +6,7 @@ interface HeaderProps {
     theme: 'developer' | 'security';
 }
 
-export const Header: React.FC<HeaderProps> = ({ theme }) => {
+export const Header: React.FC<HeaderProps> = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const navItems = [
@@ -17,11 +17,6 @@ export const Header: React.FC<HeaderProps> = ({ theme }) => {
         { label: 'Experience', href: '#experience' },
         { label: 'Contact', href: '#contact' },
     ];
-
-    const themeColors = {
-        developer: 'bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700',
-        security: 'bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700',
-    };
 
     return (
         <header className="fixed top-0 left-0 right-0 z-40 bg-white/90 backdrop-blur-md shadow-lg theme-security:bg-slate-900/90">
