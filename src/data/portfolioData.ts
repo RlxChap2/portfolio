@@ -9,8 +9,6 @@ export const projects: Project[] = [
         category: 'development',
         technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Docker'],
         imageUrl: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-        liveUrl: 'https://example-ecommerce.com',
-        githubUrl: 'https://github.com/RlxChap2/ecommerce',
         featured: true,
         completedDate: '2024-01-15',
     },
@@ -45,6 +43,98 @@ export const projects: Project[] = [
         imageUrl: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=800',
         featured: true,
         completedDate: '2024-03-10',
+    },
+    {
+        id: '5',
+        title: 'Discord API Gathering',
+        description: 'Automated script to gather useful client-side data from the Discord API for frontend integrations.',
+        category: 'security',
+        technologies: ['Javascript', 'Node.js', 'Google Console', 'API Integration'],
+        githubUrl: 'https://github.com/RlxChap2/api.discord.com',
+        imageUrl:
+            'https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/4088758/cover_image/retina_1708x683/cover-how-to-make-a-discord-bot-0afaa27d630de8c4b711f5cd5abbf01f.png',
+        featured: true,
+        completedDate: '2024-03-10',
+    },
+    {
+        id: '6',
+        title: 'Materials Website (Quiz Master)',
+        description:
+            'An educational website designed for university students to manage quizzes, videos, and learning materials in an interactive format.',
+        category: 'development',
+        technologies: ['Typescript', 'Node.js', 'TailwindCss', 'Easter Egg', 'Framework'],
+        liveUrl: 'https://rlxchap2.github.io/quiz-master/',
+        githubUrl: 'https://github.com/RlxChap2/quiz-master',
+        imageUrl: 'https://i.ibb.co/TxJ3hYrL/image.png',
+        featured: true,
+        completedDate: '2024-03-10',
+    },
+    {
+        id: '7',
+        title: 'Public Figure Portfolio Website',
+        description: 'Official website developed for a popular social media figure to showcase content, achievements, and personal branding.',
+        category: 'development',
+        technologies: ['Next.js', 'TailwindCSS', 'Vercel'],
+        liveUrl: 'https://www.abuswe7l.com',
+        imageUrl: 'https://i.ibb.co/1t775S2z/bd93c5f325f74f1167cdf8d5030600a1.png',
+        featured: true,
+        completedDate: '2024-01-01',
+    },
+    {
+        id: '8',
+        title: 'Virtual Assistant (AI Voice System)',
+        description:
+            'Offline intelligent virtual assistant similar to Siri and Google Assistant, developed with voice recognition and task automation.',
+        category: 'AI',
+        technologies: ['Python', 'Speech Recognition', 'TTS', 'Custom NLP'],
+        githubUrl: 'https://github.com/RlxChap2/VirtualAssistant',
+        imageUrl: 'https://images.pexels.com/photos/3183146/pexels-photo-3183146.jpeg?auto=compress&cs=tinysrgb&w=800',
+        featured: true,
+        completedDate: '2024-03-15',
+    },
+    {
+        id: '9',
+        title: 'cEncryption - Custom Encryption System',
+        description: 'Advanced encryption toolkit implementing Base64 and RC4 algorithms for secure communication and data handling.',
+        category: 'security',
+        technologies: ['C', 'Base64', 'RC4', 'CLI'],
+        githubUrl: 'https://github.com/RlxChap2/cEncryption',
+        imageUrl: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800',
+        featured: false,
+        completedDate: '2024-04-01',
+    },
+    {
+        id: '10',
+        title: 'Malware Sniffer Framework',
+        description: 'Security project for malware scanning and analysis of files, systems, and URLs to identify and flag harmful content.',
+        category: 'security',
+        technologies: ['Python', 'VirusTotal API', 'ScanEngine', 'Threading'],
+        githubUrl: 'https://github.com/RlxChap2/malwareSniffer',
+        imageUrl: 'https://images.pexels.com/photos/5380646/pexels-photo-5380646.jpeg?auto=compress&cs=tinysrgb&w=800',
+        featured: true,
+        completedDate: '2024-04-12',
+    },
+    {
+        id: '11',
+        title: 'Crypto-Miner Image Encryption',
+        description: 'Image encryption system allowing secure encryption and decryption of images with access-controlled keys.',
+        category: 'security',
+        technologies: ['Python', 'Pillow', 'Encryption Algorithm'],
+        githubUrl: 'https://github.com/RlxChap2/Crypto-Miner',
+        imageUrl: 'https://images.pexels.com/photos/5380660/pexels-photo-5380660.jpeg?auto=compress&cs=tinysrgb&w=800',
+        featured: false,
+        completedDate: '2024-04-25',
+    },
+    {
+        id: '12',
+        title: 'MorseMineLang - Custom Programming Language',
+        description: 'Experimental esoteric programming language based on Morse code, designed to be cryptic and unconventional.',
+        category: 'development',
+        technologies: ['Python', 'Language Design', 'CLI'],
+        githubUrl: 'https://github.com/RlxChap2/MorseMineLang',
+        imageUrl: 'https://images.pexels.com/photos/267614/pexels-photo-267614.jpeg?auto=compress&cs=tinysrgb&w=800',
+        featured: false,
+        completedDate: '2024-05-02',
     },
 ];
 
@@ -202,90 +292,32 @@ export const certificates: Certificate[] = [
     },
 ];
 
-// export const certificates: Certificate[] = [
-//   {
-//     id: 'cert1',
-//     name: 'AWS Certified Solutions Architect',
-//     issuer: 'Amazon Web Services',
-//     issueDate: '2023-06-15',
-//     expirationDate: '2026-06-15',
-//     credentialId: 'AWS-CSA-2023-001',
-//     verificationUrl: 'https://aws.amazon.com/verification',
-//     category: 'development',
-//     imageUrl: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800'
-//   },
-//   {
-//     id: 'cert2',
-//     name: 'Certified Information Security Manager (CISM)',
-//     issuer: 'ISACA',
-//     issueDate: '2023-08-20',
-//     expirationDate: '2026-08-20',
-//     credentialId: 'CISM-2023-002',
-//     verificationUrl: 'https://isaca.org/verification',
-//     category: 'security',
-//     imageUrl: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=800'
-//   },
-//   {
-//     id: 'cert3',
-//     name: 'Certified Ethical Hacker (CEH)',
-//     issuer: 'EC-Council',
-//     issueDate: '2023-04-10',
-//     expirationDate: '2026-04-10',
-//     credentialId: 'CEH-2023-003',
-//     verificationUrl: 'https://eccouncil.org/verification',
-//     category: 'security',
-//     imageUrl: 'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800'
-//   },
-//   {
-//     id: 'cert4',
-//     name: 'Google Cloud Professional Developer',
-//     issuer: 'Google Cloud',
-//     issueDate: '2023-09-05',
-//     expirationDate: '2025-09-05',
-//     credentialId: 'GCP-DEV-2023-004',
-//     verificationUrl: 'https://cloud.google.com/certification',
-//     category: 'development',
-//     imageUrl: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800'
-//   },
-//   {
-//     id: 'cert5',
-//     name: 'CompTIA Security+',
-//     issuer: 'CompTIA',
-//     issueDate: '2023-01-15',
-//     expirationDate: '2026-01-15',
-//     credentialId: 'COMP-SEC-2023-005',
-//     verificationUrl: 'https://comptia.org/verification',
-//     category: 'security',
-//     imageUrl: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=800'
-//   },
-//   {
-//     id: 'cert6',
-//     name: 'Microsoft Azure Developer Associate',
-//     issuer: 'Microsoft',
-//     issueDate: '2023-07-10',
-//     expirationDate: '2025-07-10',
-//     credentialId: 'AZ-204-2023-006',
-//     verificationUrl: 'https://docs.microsoft.com/verification',
-//     category: 'development',
-//     imageUrl: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800'
-//   }
-// ];
-
 export const skills: Skill[] = [
-    { name: 'React/TypeScript', proficiency: 95, category: 'frontend' },
-    { name: 'Vue.js', proficiency: 88, category: 'frontend' },
-    { name: 'Next.js', proficiency: 92, category: 'frontend' },
+    // Frontend
+    { name: 'React/TypeScript', proficiency: 87, category: 'frontend' },
+    { name: 'Vite.js', proficiency: 85, category: 'frontend' },
+    { name: 'Next.js', proficiency: 80, category: 'frontend' },
+    { name: 'Vue.js', proficiency: 76, category: 'frontend' },
+
+    // Backend
     { name: 'Node.js', proficiency: 90, category: 'backend' },
     { name: 'Python', proficiency: 88, category: 'backend' },
-    { name: 'PostgreSQL', proficiency: 85, category: 'backend' },
-    { name: 'MongoDB', proficiency: 82, category: 'backend' },
-    { name: 'Penetration Testing', proficiency: 92, category: 'security' },
-    { name: 'Network Security', proficiency: 89, category: 'security' },
-    { name: 'Incident Response', proficiency: 87, category: 'security' },
+    { name: 'MongoDB', proficiency: 87, category: 'backend' },
+    { name: 'SQL', proficiency: 80, category: 'backend' },
+    { name: 'PostgreSQL', proficiency: 75, category: 'backend' },
+
+    // Security
+    { name: 'Incident Response', proficiency: 90, category: 'security' },
+    { name: 'Network Security', proficiency: 88, category: 'security' },
+    { name: 'Penetration Testing', proficiency: 75, category: 'security' },
+
+    // Tools
     { name: 'AWS/Cloud', proficiency: 87, category: 'tools' },
     { name: 'Docker/Kubernetes', proficiency: 83, category: 'tools' },
     { name: 'CI/CD', proficiency: 85, category: 'tools' },
-    { name: 'Team Leadership', proficiency: 91, category: 'soft' },
+
+    // Soft
+    { name: 'Team Leadership', proficiency: 95, category: 'soft' },
     { name: 'Problem Solving', proficiency: 94, category: 'soft' },
     { name: 'Communication', proficiency: 89, category: 'soft' },
 ];
